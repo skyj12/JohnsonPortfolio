@@ -3,7 +3,29 @@ background-color: lightblue;
 }
 h1 {
 font-size: 45px;
+font-style: oblique;
 }
 p1 {
 color: black;
+}
+a:hover {
+    color: red;
+}
+div.a {
+    text-align: center;
+}
+p.normal {
+    font-style: normal
+}
+img {
+    border-radius: 50%
+}
+PHOTO1{
+    box-shadow: 5px 10px;
+}
+PHOTO2{
+    box-shadow: 5px 10px;
+}
+PHOTO3{
+    box-shadow: 5px 10px;
 }
