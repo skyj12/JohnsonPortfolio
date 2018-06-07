@@ -1,31 +1,140 @@
-body {
-background-color: lightblue;
-}
+ body {
+     background: #97d6eb
+     padding-box 10px;
+     margin: auto;
+     font-family: 'Montserrat', sans-serif;
+     max-width: 500px;
+ }
+
 h1 {
 font-size: 45px;
-font-style: oblique;
+font-style: italic;
+text-align:  center;
+font-family: 'Merriweather', serif;
 }
-p1 {
-color: black;
+
+h2 {
+font-size: 49px;
+font-weight: 100;
+text-align: center;
+width: 70%;
 }
+
+h3 {
+    font-size: 49px;
+    font-weight: 100;
+    text-align: center;
+    width: 60%;
+}
+
+P {
+    font-size: 19px;
+    font-weight: bold;
+    color: darkslateblue;
+    line-height: 1.6em;
+    text-align: left;
+    width: 100%
+}
+
 a:hover {
-    color: red;
+    color: green;
+   text-decoration: underline;
 }
+
 div.a {
     text-align: center;
 }
-p.normal {
-    font-style: normal
+
+img { border: 4px inset mediumSlateblue;
+    box-shadow: 1px 1px 8px 4px violet;
+    border-radius: 25px;
+    margin: 10px;
+    width: 171px;
+    height: 149px;
 }
-img {
-    border-radius: 50%
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
 }
-PHOTO1{
-    box-shadow: 5px 10px;
+
+.body {
+    display:block;
+    margin:0 auto;
+    width:576px;
 }
-PHOTO2{
-    box-shadow: 5px 10px;
+
+form {
+    margin:0 auto;
+    width:459px;
+    border: rgb(148, 3, 117) solid;
+    padding: 25px ;
 }
-PHOTO3{
-    box-shadow: 5px 10px;
+
+input, textarea {
+	width:419px;
+	height:27px;
+	background:#efefef;
+	border:0px solid #dedede;
+	padding:19px;
+	margin-top:3px;
+	font-size:0.9em;
+	color:#3a3a3a;
 }
+
+textarea {
+	height:213px;
+	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+submit {
+    width: 20em;
+    height: 2em;
+    background:url(images/submit.jpg);
+    text-indent:-9999px;
+    border:none;
+    margin-top: 10px;
+    cursor:pointer;
+}
+    element.style {
+        height: 50px;
+        width: 83px;
+    }
+	#submit:hover {
+        opacity:.9;
+    }                            
+    #images{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    @media screen and (min-width: 480px) {
+        .nav{
+        display: flex;
+        flex-direction: row-reverse;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+        body{
+            background-color:  rgba(241, 165, 225, 0.842);
+        }
+                                #images{
+                                    display: flex;
+                                    flex-direction: row-reverse;
+                                }
+    }
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+    
